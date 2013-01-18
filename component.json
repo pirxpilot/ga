@@ -1,0 +1,13 @@
+{
+  "name": "ga",
+  "repo": "code42day/ga",
+  "description": "Google Analytics tracking snippet",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
