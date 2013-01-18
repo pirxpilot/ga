@@ -2,9 +2,11 @@
   "name": "ga",
   "repo": "code42day/ga",
   "description": "Google Analytics tracking snippet",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+  	"code42day/dataset": "*"
+  },
   "development": {},
   "license": "MIT",
   "scripts": [
