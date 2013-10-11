@@ -2,8 +2,6 @@ var dataset = require('dataset');
 
 module.exports = analytics;
 
-/*global document, window */
-
 function loadScript(scriptUrl, async) {
   var js, fjs;
 
