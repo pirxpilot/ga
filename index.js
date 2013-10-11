@@ -1,18 +1,7 @@
 var dataset = require('dataset');
+var load = require('load');
 
 module.exports = analytics;
-
-function loadScript(scriptUrl, async) {
-  var js, fjs;
-
-  js = document.createElement('script');
-  js.src = scriptUrl;
-  if (async) {
-    js.async = true;
-  }
-  fjs = document.getElementsByTagName('script')[0];
-  fjs.parentNode.insertBefore(js, fjs);
-}
 
 function gaScriptUrl() {
   return ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
@@ -31,5 +20,5 @@ function analytics(propertyId) {
   gaq.push(['_setAccount', propertyId]);
   gaq.push(['_trackPageview']);
 
-  loadScript(gaScriptUrl(), true);
+  load(gaScriptUrl());
 }

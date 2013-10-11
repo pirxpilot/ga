@@ -3,11 +3,13 @@
   "repo": "code42day/ga",
   "description": "Google Analytics tracking snippet",
   "version": "0.1.0",
-  "keywords": [],
+  "keywords": [
+    "google", "analytics"
+  ],
   "dependencies": {
-  	"code42day/dataset": "*"
+  	"code42day/dataset": "0.2.2",
+    "code42day/load": "1.0.0"
   },
-  "development": {},
   "license": "MIT",
   "scripts": [
     "index.js"
