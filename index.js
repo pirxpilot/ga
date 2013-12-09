@@ -20,5 +20,5 @@ function analytics(propertyId) {
   gaq.push(['_setAccount', propertyId]);
   gaq.push(['_trackPageview']);
 
-  load(gaScriptUrl());
+  return load(gaScriptUrl());
 }
