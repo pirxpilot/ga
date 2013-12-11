@@ -2,6 +2,7 @@
 # ga
 
   Google Analytics tracking snippet
+  You might want to use [code42day/ua] instead - it supports new Google Universal Analytics snipper.
 
 ## Installation
 
@@ -22,3 +23,5 @@
 ## License
 
   MIT
+
+[code42day/ua]: https://github.com/code42day/ua
