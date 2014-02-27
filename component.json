@@ -7,7 +7,7 @@
     "google", "analytics"
   ],
   "dependencies": {
-  	"code42day/dataset": "0.2.2",
+  	"code42day/dataset": "0.3.0",
     "code42day/load": "1.0.0"
   },
   "license": "MIT",
