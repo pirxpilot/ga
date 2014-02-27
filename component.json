@@ -2,7 +2,7 @@
   "name": "ga",
   "repo": "code42day/ga",
   "description": "Google Analytics tracking snippet",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "keywords": [
     "google", "analytics"
   ],
