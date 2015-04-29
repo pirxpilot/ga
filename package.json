@@ -1,7 +1,7 @@
 {
   "name": "code42day-ga",
   "description": "Google Analytics tracking snippet",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "keywords": [
     "google",
     "analytics"
