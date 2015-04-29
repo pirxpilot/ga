@@ -1,15 +1,30 @@
 {
-  "name": "ga",
-  "repo": "code42day/ga",
+  "name": "code42day-ga",
   "description": "Google Analytics tracking snippet",
   "version": "1.2.0",
   "keywords": [
-    "google", "analytics"
+    "google",
+    "analytics"
   ],
   "dependencies": {
-    "dataset": "0.3.1",
-    "load-script": "1.0.0"
+    "dataset": "^0.3.1",
+    "code42day-load": "^1.0.0"
   },
-  "browser": { "load": "load-script" },
-  "license": "MIT"
+  "browser": {
+    "load": "code42day-load"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code42day/ga.git"
+  },
+  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
+  "bugs": {
+    "url": "https://github.com/code42day/ga/issues"
+  },
+  "homepage": "https://github.com/code42day/ga"
 }
