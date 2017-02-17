@@ -2,11 +2,11 @@
 # ga
 
   Google Analytics tracking snippet
-  You might want to use [code42day/ua] instead - it supports new Google Universal Analytics snipper.
+  You might want to use [pirxpilot/google-ua] instead - it supports new Google Universal Analytics snippet.
 
 ## Installation
 
-    $ component install code42day/ga
+    $ npm install @pirxpilot/ga
 
 ## API
 
@@ -18,10 +18,10 @@
 
   	<body data-ga-property-id="UA-XXXX-X">
 
-  Check [test/index.html](https://github.com/code42day/ga/blob/master/test/index.html) for example.
+  Check [test/index.html](https://github.com/pirxpilot/ga/blob/master/test/index.html) for example.
 
 ## License
 
   MIT
 
-[code42day/ua]: https://github.com/code42day/ua
+[pirxpilot/google-ua]: https://github.com/pirxpilot/google-ua
